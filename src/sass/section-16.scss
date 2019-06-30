@@ -1,13 +1,18 @@
-.sixteen-section{
-    padding-top: 60px;
-    padding-bottom: 60px;
+.sixteen-section {
+    padding: 30px 0;
+    margin: 0 auto;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
 }
-.sixteen-header{
+
+.sixteen-header {
     margin-bottom: 30px;
 }
-.sixteen-headerbox{
-    margin-bottom: 35px;
-    &__heading{
+
+.sixteen-headerbox {
+    // margin-bottom: 35px;
+
+    &__heading {
         font-size: 18px;
         line-height: 24px;
         color: #000000;
@@ -17,20 +22,23 @@
         text-align: center;
         padding-bottom: 14px;
     }
-    &__textbox{
-        margin: 0 auto;
-        max-width: 252px;   
+
+    &__textbox {
+        // margin: 0 auto;
+        max-width: 252px;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
-        margin-left: 101px;
-        &__line{
+        // margin-left: 101px;
+
+        &__line {
             width: 19px;
             height: 2.25px;
             background-color: #000000;
-            margin-top: 8px;
+            // margin-top: 8px;
         }
-        &__text{
+
+        &__text {
             max-width: 216px;
             font-size: 14px;
             line-height: 20px;
@@ -42,7 +50,8 @@
         }
     }
 }
-.sixteen-imagebox{
+
+.sixteen-imagebox {
     margin: 0 auto;
     max-width: 445px;
     height: 165px;
@@ -52,41 +61,45 @@
     background-repeat: no-repeat;
 }
 
-.sixteen-first-article{
+.sixteen-first-article {
     margin-bottom: 11px;
-    &__textbox{
-        margin: 0 auto;
+
+    &__textbox {
+        // margin: 0 auto;
         max-width: 291px;
     }
-    &__wrapper{
+
+    &__wrapper {
         max-width: 237px;
         padding-bottom: 9px;
         font-size: 0;
     }
-    &__heading{
+
+    &__heading {
         max-width: 240px;
         font-size: 14px;
         line-height: 20px;
         color: #ffffff;
         font-family: "Acrom";
-        font-weight: 500    ;
+        font-weight: 500;
         text-transform: uppercase;
         background-color: #000000;
         margin-bottom: 3px;
 
-        &__row{
+        &__row {
             max-width: 240px;
             font-size: 14px;
             line-height: 20px;
             color: #ffffff;
             font-family: "Acrom";
-            font-weight: 500    ;
+            font-weight: 500;
             text-transform: uppercase;
             background-color: #000000;
             margin-bottom: 3px;
         }
     }
-    &__text{
+
+    &__text {
         max-width: 371px;
         font-size: 14px;
         line-height: 20px;
@@ -96,10 +109,11 @@
         letter-spacing: -.8px;
     }
 }
-.sixteen-second-article{
-    &__header{
+
+.sixteen-second-article {
+    &__header {
         max-width: 371px;
-        margin: 0 auto;
+        // margin: 0 auto;
         margin-bottom: 21px;
         font-size: 14px;
         text-transform: uppercase;
@@ -109,22 +123,25 @@
         font-weight: 800;
         letter-spacing: -0.3px;
     }
-    &__list{
+
+    &__list {
         list-style-type: none;
-        
-        &__item{
+
+        &__item {
             width: 346px;
             margin-left: 10px;
             margin-bottom: 22px;
             line-height: 18px;
             position: relative;
         }
-        &__textbox{
+
+        &__textbox {
             margin: 0 auto;
             width: 242px;
         }
-        &__sign{
-            padding-bottom: 8px;    
+
+        &__sign {
+            padding-bottom: 8px;
             font-size: 13px;
             line-height: 19px;
             color: #000000;
@@ -133,14 +150,16 @@
 
             max-width: 356px;
         }
-        &__text{
+
+        &__text {
             width: 260px;
             font-size: 13px;
             line-height: 19px;
             color: #3f4144;
             font-family: "Acrom";
         }
-        &__numberbox{
+
+        &__numberbox {
             text-align: center;
             width: 50px;
             position: absolute;
@@ -148,7 +167,8 @@
             top: 23px;
             background-color: #ff6b08;
         }
-        &__number{
+
+        &__number {
             font-size: 14px;
             line-height: 20px;
             color: #ffffff;
@@ -156,19 +176,20 @@
             font-weight: 500;
         }
 
-        &__price{
+        &__price {
             display: flex;
             flex-flow: row wrap;
             width: 304px;
             margin: 0 auto;
             justify-content: space-between;
 
-            &__wrapper{
+            &__wrapper {
                 width: 141px;
                 margin-left: 9px;
                 margin-top: 41px;
             }
-            &__span{
+
+            &__span {
                 font-size: 17px;
                 line-height: 29px;
                 color: #000000;
@@ -176,10 +197,12 @@
                 font-weight: 500;
                 background-color: #16ebfe;
             }
-            &__pricebox{
+
+            &__pricebox {
                 margin-top: 20px;
             }
-            &__costnone{
+
+            &__costnone {
                 display: block;
                 font-size: 17px;
                 line-height: 43px;
@@ -188,11 +211,12 @@
                 font-weight: 800;
                 text-decoration: line-through;
 
-                &__grn{
+                &__grn {
                     text-transform: uppercase;
                 }
             }
-            &__cost{
+
+            &__cost {
                 display: block;
                 font-size: 36px;
                 line-height: 43px;
@@ -200,7 +224,7 @@
                 font-family: "Acrom";
                 font-weight: 800;
 
-                &__grn{
+                &__grn {
                     font-size: 23px;
                     line-height: 43px;
                     color: #000000;
@@ -216,46 +240,53 @@
 
 
 
-@media (min-width: 768px){
-    .sixteen-section{
+@media (min-width: 768px) {
+    .sixteen-section {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .sixteen-header{
+
+    .sixteen-header {
         display: flex;
         flex-flow: row-reverse wrap;
         max-width: 637px;
         margin-bottom: 43px;
     }
-    .sixteen-headerbox{
+
+    .sixteen-headerbox {
         margin-top: 20px;
 
-        &__heading{
+        &__heading {
             font-size: 27px;
             line-height: 34px;
             text-align: left;
             max-width: 215px;
         }
-        &__textbox{
+
+        &__textbox {
             margin: 0;
-            width: 191px;  
+            width: 191px;
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
-            &__line{
+
+            &__line {
                 width: 28px;
                 height: 3px;
                 margin-top: 6px;
             }
-            &__text{
+
+            &__text {
                 font-size: 10px;
                 line-height: 13px;
                 font-weight: 800;
-                max-width: 147px;;
+                max-width: 147px;
+                ;
             }
         }
     }
-    .sixteen-imagebox{
+
+    .sixteen-imagebox {
         margin-left: 95px;
         width: 275px;
         height: 168px;
@@ -263,25 +294,28 @@
         background-repeat: no-repeat;
     }
 
-    .sixteen-first-article{
+    .sixteen-first-article {
         margin: 0 auto;
         margin-bottom: 53px;
         display: flex;
         flex-flow: row wrap;
         max-width: 613px;
         justify-content: space-between;
-        &__textbox{
+
+        &__textbox {
             max-width: 334px;
             height: 135px;
             display: flex;
             flex-flow: row wrap;
             margin-top: 44px;
         }
-        &__wrapper{
+
+        &__wrapper {
             max-width: 112px;
             padding-bottom: 0;
         }
-        &__heading{
+
+        &__heading {
             display: inline-block;
             padding-left: 2px;
             padding-right: 2px;
@@ -291,7 +325,7 @@
             font-weight: 800;
             margin-bottom: 1px;
 
-            &__row{
+            &__row {
                 display: inline-block;
                 padding-left: 0;
                 padding-right: 2px;
@@ -301,14 +335,16 @@
                 margin-bottom: 1px;
             }
         }
-        &__text{
+
+        &__text {
             max-width: 180px;
             font-size: 8px;
             line-height: 12px;
             letter-spacing: 0px;
             padding-bottom: 0;
         }
-        &__imagebox{
+
+        &__imagebox {
             width: 224px;
             height: 201px;
             background: url(../images/first-article-picture-16.jpg), rgb(20, 20, 20);
@@ -316,15 +352,16 @@
             background-position: 100%;
             background-repeat: no-repeat;
         }
-        
+
     }
-    .sixteen-second-article{
+
+    .sixteen-second-article {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
         max-width: 750px;
 
-        &__header{
+        &__header {
             margin: 0;
             margin-left: 94px;
             font-size: 11px;
@@ -332,54 +369,64 @@
             max-width: 118px;
             font-weight: 900;
         }
-        &__list{
+
+        &__list {
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
             max-width: 476px;
 
-            &__item{
-                margin-bottom: 18px;   
+            &__item {
+                margin-bottom: 18px;
                 margin-left: 0;
                 max-width: 152px;
             }
-            &__numberbox{
+
+            &__numberbox {
                 display: inline-grid;
                 width: 22px;
                 top: 9px;
                 left: -19px;
             }
-            &__number{
+
+            &__number {
                 font-size: 6px;
                 line-height: 9px;
             }
-            &__textbox{
+
+            &__textbox {
                 max-width: 134px;
                 margin: 0;
             }
-            &__sign{
+
+            &__sign {
                 font-size: 9px;
                 line-height: 12px;
                 max-width: 104px;
             }
-            &__text{
+
+            &__text {
                 max-width: 127px;
                 font-size: 8px;
                 line-height: 12px;
             }
-            &__price{
+
+            &__price {
                 width: 167px;
                 margin: 0;
-                &__wrapper{
+
+                &__wrapper {
                     width: 76px;
                     margin-top: 26px;
                     margin-left: 0;
                 }
-                &__pricebox{
+
+                &__pricebox {
                     max-width: 78px;
                     margin-top: 15px;
                 }
-                &__span{
+
+                &__span {
                     font-size: 9px;
                     font-weight: 800;
                     max-width: 76px;
@@ -387,11 +434,13 @@
                     line-height: 12px;
                     display: block;
                 }
-                &__costnone{
+
+                &__costnone {
                     display: inline;
                     font-size: 10px;
                     line-height: 10px;
-                    &__grn{
+
+                    &__grn {
                         font-size: 10px;
                         display: inline;
                         text-transform: lowercase;
@@ -399,11 +448,13 @@
                         font-family: "Acrom";
                     }
                 }
-                &__cost{
+
+                &__cost {
                     display: inline;
                     font-size: 17px;
                     line-height: 20px;
-                    &__grn{
+
+                    &__grn {
                         display: inline;
                         font-size: 15px;
                         line-height: 43px;
@@ -415,9 +466,10 @@
             }
         }
     }
+
     .sixteen-second-article__list__item:nth-of-type(5) {
         width: 140px;
-    }   
+    }
 }
 
 
@@ -429,57 +481,65 @@
 
 
 
-@media (min-width: 1200px){
-    .sixteen-section{
+@media (min-width: 1200px) {
+    .sixteen-section {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .sixteen-header{
+
+    .sixteen-header {
         max-width: 722px;
         margin: 0 auto;
         margin-bottom: 50px;
     }
-    .sixteen-headerbox{
+
+    .sixteen-headerbox {
         margin-top: 20px;
         margin-right: 119px;
         display: inline-block;
 
-        &__heading{
+        &__heading {
             font-size: 30px;
             line-height: 38px;
             max-width: 240px;
         }
-        &__textbox{
+
+        &__textbox {
             width: 210px;
             padding-top: 3px;
-            &__line{
+
+            &__line {
                 width: 31px;
                 height: 4px;
                 margin-top: 6px;
             }
-            &__text{
+
+            &__text {
                 font-size: 10px;
                 line-height: 15px;
-                max-width: 156px;;
+                max-width: 156px;
+                ;
             }
         }
     }
-    .sixteen-imagebox{
+
+    .sixteen-imagebox {
         display: inline-block;
         margin-left: 0;
         width: 304px;
         height: 184px;
         background-position: 0 -13px;
-    }   
+    }
 
-    .sixteen-first-article{
+    .sixteen-first-article {
         margin: 0 auto;
         margin-bottom: 60px;
         display: flex;
         flex-flow: row wrap;
         max-width: 722px;
         justify-content: space-between;
-        &__textbox{
+
+        &__textbox {
             max-width: 318px;
             height: 135px;
             margin-top: 50px;
@@ -488,11 +548,13 @@
             flex-flow: row wrap;
             justify-content: space-between;
         }
-        &__wrapper{
+
+        &__wrapper {
             max-width: 112px;
             padding-bottom: 25px;
         }
-        &__heading{
+
+        &__heading {
             display: inline-block;
             padding-left: 2px;
             padding-right: 2px;
@@ -502,7 +564,7 @@
             font-weight: 800;
             margin-bottom: 1px;
 
-            &__row{
+            &__row {
                 display: inline-block;
                 padding-left: 0;
                 padding-right: 2px;
@@ -512,87 +574,100 @@
                 margin-bottom: 1px;
             }
         }
-        &__text{
+
+        &__text {
             max-width: 184px;
             font-size: 9px;
             line-height: 13px;
             letter-spacing: 0;
             padding-bottom: 0;
         }
-        &__imagebox{
+
+        &__imagebox {
             width: 250px;
             height: 224px;
             margin-right: 69px;
-            background: url(../images/first-article-picture-16.jpg),#141414;
+            background: url(../images/first-article-picture-16.jpg), #141414;
             background-size: 375px 258px;
             background-position: 98% 71%;
             background-repeat: no-repeat;
         }
-        
+
     }
-    .sixteen-second-article{
+
+    .sixteen-second-article {
         margin: 0 auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
         max-width: 722px;
 
-        &__header{
+        &__header {
             margin: 0;
             font-size: 10px;
             line-height: 16px;
             max-width: 116px;
             font-weight: 900;
         }
-        &__list{
+
+        &__list {
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
             max-width: 518px;
 
-            &__item{
-                margin-bottom: 24px;   
+            &__item {
+                margin-bottom: 24px;
                 margin-left: 0;
                 max-width: 152px;
             }
-            &__numberbox{
+
+            &__numberbox {
                 display: inline-grid;
                 width: 22px;
                 top: 9px;
                 left: -31px;
             }
-            &__number{
+
+            &__number {
                 font-size: 6px;
                 line-height: 10px;
             }
-            &__textbox{
+
+            &__textbox {
                 max-width: 134px;
                 margin: 0;
             }
-            &__sign{
+
+            &__sign {
                 font-size: 10px;
                 line-height: 13px;
                 max-width: 131px;
             }
-            &__text{
+
+            &__text {
                 max-width: 155px;
                 font-size: 9px;
                 line-height: 13px;
             }
-            &__price{
+
+            &__price {
                 width: 167px;
                 margin: 0;
-                &__wrapper{
+
+                &__wrapper {
                     width: 76px;
                     margin-top: 26px;
                     margin-left: 0;
                 }
-                &__pricebox{
+
+                &__pricebox {
                     max-width: 78px;
                     margin-top: 15px;
                     line-height: 0.8;
                 }
-                &__span{
+
+                &__span {
                     font-size: 9px;
                     line-height: 15px;
                     font-weight: 800;
@@ -600,11 +675,13 @@
                     margin-bottom: 4px;
                     display: block;
                 }
-                &__costnone{
+
+                &__costnone {
                     display: inline;
                     font-size: 10px;
                     line-height: 10px;
-                    &__grn{
+
+                    &__grn {
                         font-size: 10px;
                         display: inline;
                         text-transform: lowercase;
@@ -612,11 +689,13 @@
                         font-family: "Acrom";
                     }
                 }
-                &__cost{
+
+                &__cost {
                     display: inline;
                     font-size: 19px;
                     line-height: 20px;
-                    &__grn{
+
+                    &__grn {
                         display: inline;
                         font-size: 12px;
                         line-height: 43px;
@@ -628,9 +707,8 @@
             }
         }
     }
+
     .sixteen-second-article__list__item:nth-of-type(5) {
         width: 137px;
     }
 }
-
-
