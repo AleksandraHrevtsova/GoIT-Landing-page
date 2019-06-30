@@ -2,48 +2,35 @@
    Import partials below
    */
 
-
-
-
-
-
 $orange : #ff6b08;
 $aqua : #16ebfe;
 
-
-
-
-
-
-
-@import './normalize';
+@import './normalize.scss';
 @import './fonts.scss';
-@import './section1Style.scss';
-@import "./section2";
-@import './section_3.scss';
-@import './section4.scss';
-@import'./section5.scss';
-@import "./section-6.scss";
-@import './section7Style.scss';
+@import './section-1.scss';
+@import "./section-2.scss";
+@import './section-3.scss';
+@import './section-4.scss';
+@import './section-5.scss';
+@import './section-6.scss';
+@import './section-7.scss';
 @import './section-8.scss';
-@import './section9.scss';
-@import './section10.scss';
-@import "./section11.scss";
-@import './section12.scss';
-@import './section13Styles.scss';
-@import './section14';
-@import './section_15.scss';
-@import "./section-16.scss";
-@import './section17.scss';
-@import'./section18';
-@import './section_19.scss';
-@import './footer';
-
+@import './section-9.scss';
+@import './section-10.scss';
+@import "./section-11.scss";
+@import './section-12.scss';
+@import './section-13.scss';
+@import './section-14.scss';
+@import './section-15.scss';
+@import './section-16.scss';
+@import './section-17.scss';
+@import './section-18.scss';
+@import './section-19.scss';
+@import './footer.scss';
 
 
 @import "./normalize";
 @import "./fonts.scss";
-
 
 * {
   box-sizing: border-box;
@@ -61,6 +48,7 @@ $aqua : #16ebfe;
     width: 100%;
   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 100%;
