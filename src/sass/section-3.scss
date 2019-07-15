@@ -1,212 +1,387 @@
-.section-3 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    max-width: 480px;
+.container {
+    max-width: 1140px;
     width: 100%;
-    padding: 30px 0;
-    margin: 0 auto;
-
-    &__article1,
-    &__article2 {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        max-width: 310px;
-    }
-
-    &__article2 {
-        max-width: 410px;
-        padding-left: 20px;
-    }
-}
-
-.article1_h2 {
-    color: #000000;
-    font-family: "Acrom";
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 800;
-    margin-bottom: 35px;
-    text-transform: uppercase;
-}
-
-.article1_p {
-    color: #000000;
-    font-family: "Acrom";
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 500;
-    margin-bottom: 25px;
     position: relative;
-    max-width: 270px;
+}
+
+.s-3__wrapper {
+    height: 712px;
+    ;
+}
+
+.s-3__main_picture {
+    background: url(../images/section-3/section-3_main_picture.jpg);
+    width: 741px;
+    height: 485px;
     margin: 0 auto;
 }
 
-.article1_p::before {
-    content: "";
-    width: 20px;
-    height: 2px;
-    background-color: #000000;
-    position: absolute;
-    left: -30px;
-    top: 8px;
-}
+// border: 8px solid white;
 
-.article2_ul {
-    list-style: none;
-    max-width: 400px;
-    margin: 0 auto;
-}
+// 3 hover
 
-.article2_li {
-    margin-bottom: 25px;
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto;
-}
+// width: 247px;
 
-.article2_li::before {
-    content: "";
-    width: 9px;
-    height: 10px;
-    background-color: #ff6b08;
-    position: absolute;
-    left: -20px;
-    top: 8px;
-}
+// left
+// color: #b2e9f1;
 
-.article_li__h4 {
-    font-size: 23px;
-    line-height: 29px;
-    color: #000000;
-    font-family: "Acrom";
-    font-weight: 800;
-    margin-bottom: 10px;
-}
+// center
+// color: #bae0ed;
 
-.article_li__phead,
-.article_li__ptext {
-    font-size: 14px;
-    line-height: 20px;
-    font-family: "Acrom";
-    font-weight: 500;
-    color: #000000;
-    margin-bottom: 20px;
-    display: inline-block;
-    background-color: #16ebfe;
-}
+// right
+// color: # 8591a0;
 
-.article_li__ptext {
-    color: #3f4144;
-    margin-bottom: 25px;
-}
 
-@media (min-width: 768px) {
-    .section-3 {
-        background-repeat: no-repeat;
-        background-position: right;
-        background-position-y: bottom;
-        background-image: url(../images/section_3_img_1.png);
-        max-width: 714px;
-        flex-direction: row;
-    }
+// .section-4 {
+//     max-width: 480px;
+//     display: flex;
+//     flex-direction: column;
+//     align-content: center;
+//     padding: 30px 0;
+//     margin: 0 auto;
 
-    .section-3__article1 {
-        max-width: 189px;
-        // margin: 0;
-        // margin-left: 60px;
-    }
+//     &__image,
+//     &__subtitle {
+//         margin-bottom: 35px;
+//     }
 
-    .section-3__article2 {
-        min-width: 430px;
-        // margin: 0;
-    }
+//     &__subtitle {
+//         margin: 0 auto;
+//         font-family: "Acrom";
+//         width: 256px;
+//         background-color: #000;
+//         color: #ffffff;
+//         font-size: 18px;
+//         font-weight: 700;
+//         line-height: 24px;
+//         text-transform: uppercase;
+//     }
 
-    .article1_h2 {
-        font-size: 27px;
-        line-height: 34px;
-    }
+//     &__p {
+//         font-family: "Acrom";
+//         font-size: 14px;
+//         font-weight: 700;
+//         margin-bottom: 15px;
+//     }
+// }
 
-    .article1_p {
-        font-size: 9px;
-        line-height: 13px;
-        max-width: 127px;
-    }
+// .section-4__text {
+//     font-family: "Acrom";
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 19.5px;
+//     margin-bottom: 52px;
+// }
 
-    .article2_ul {
-        max-width: 320px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        z-index: 6;
-    }
+// .section-4__text-span {
+//     background-color: #16ebfe;
+// }
 
-    .article2_ul {
-        justify-content: space-between;
-    }
+// .section-4__title {
+//     text-align: center;
+//     margin: 0 auto;
+//     font-family: "Acrom";
+//     background-color: #000;
+//     color: #ffffff;
+//     font-size: 18px;
+//     font-weight: 700;
+//     line-height: 24px;
+//     text-transform: uppercase;
+//     width: 292px;
+//     margin-bottom: 23px;
+// }
 
-    .article2_li {
-        max-width: 125px;
-        margin: 0;
-    }
+// .section-4__text-one {
+//     margin: 0 auto;
+//     padding-left: 30px;
+//     position: relative;
+//     width: 280px;
+//     font-family: "Acrom";
+//     font-size: 14px;
+//     font-weight: 500;
+//     line-height: 19.5px;
+//     margin-bottom: 50px;
+// }
 
-    .article2_li-1 {
-        order: 1;
-    }
+// .section-4__text-one::before {
+//     content: "";
+//     width: 14px;
+//     height: 4px;
+//     background-color: #000000;
+//     position: absolute;
+//     left: 0;
+//     top: 6px;
+// }
 
-    .article2_li-2 {
-        order: 3;
-    }
+// .section-4__item {
+//     padding-left: 50px;
+//     padding-right: 30px;
+//     list-style: none;
+//     margin-bottom: 30px;
+//     position: relative;
+// }
 
-    .article2_li-3 {
-        order: 2;
-    }
+// .section-4__item::before {
+//     content: "";
+//     width: 6px;
+//     height: 6px;
+//     background-color: #000;
+//     position: absolute;
+//     left: 20px;
+//     top: 6px;
+// }
 
-    .article2_li-4 {
-        order: 1;
-    }
 
-    .article2_li::before {
-        display: none;
-    }
+// .section-4__item-title {
+//     font-family: "Acrom";
+//     font-size: 14px;
+//     font-weight: 700;
+//     line-height: 19.5px;
+//     text-transform: uppercase;
+//     margin-bottom: 25px;
+// }
 
-    .article_li__h4 {
-        font-size: 17px;
-        line-height: 20px;
-    }
+// .section-4__item-text {
+//     color: #3f4144;
+//     font-family: "Acrom";
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 19.5px;
 
-    .article_li__phead {
-        font-size: 8px;
-        line-height: 13px;
-        // margin-bottom: 5px;
-        display: inline;
-    }
+// }
 
-    .article_li__ptext {
-        font-size: 9px;
-        line-height: 13px;
-        margin-bottom: 15px;
-    }
-}
+// .section-4__img {
+//     width: 100%;
+// }
 
-@media (min-width: 1200px) {
-    .section-3__article1 {
-        max-width: 210px;
-        // margin: 0;
-    }
 
-    .article1_h2 {
-        font-size: 30px;
-        line-height: 38px;
-    }
+// @media (min-width: 768px) {
+//     .section-4 {
+//         max-width: 768px;
+//         display: flex;
+//         flex-direction: row;
 
-    .article1_p {
-        font-size: 10px;
-        line-height: 15px;
-        max-width: 127px;
-    }
-}
+//         &__subtitle {
+//             font-family: "Acrom";
+//             font-weight: 700;
+//             width: 75px;
+//             height: 40px;
+//             margin: 0 auto;
+//             background-color: #000;
+//             color: #ffffff;
+//             font-size: 9px;
+//             line-height: 14.58px;
+//             text-transform: uppercase;
+//             margin-right: 30px;
+//         }
+
+//         &__p {
+//             font-family: "Acrom";
+//             font-weight: 700;
+//             font-size: 9px;
+//             line-height: 13.46px;
+//             margin-bottom: 10px;
+//             width: 160px;
+//         }
+
+//     }
+
+//     .section-4__text {
+//         font-family: "Acrom";
+//         font-size: 8px;
+//         font-weight: 400;
+//         line-height: 11.78px;
+//         width: 165px;
+
+//     }
+
+//     .section-4__article-two {
+//         display: flex;
+//         flex-direction: column;
+//         max-width: 274px;
+//     }
+
+//     .section-4__article-two-titles,
+//     .section-4__article-two-description {
+//         display: flex;
+
+//     }
+
+//     .section-4__title {
+//         text-align: left;
+//         font-family: "Acrom";
+//         color: #ffffff;
+//         font-size: 27px;
+//         font-weight: 700;
+//         line-height: 33.65px;
+//         text-transform: uppercase;
+//         margin-bottom: 23px;
+//         margin-right: 20px;
+//     }
+
+//     .section-4__text-one {
+//         width: 160px;
+//         position: relative;
+//         font-family: "Acrom";
+//         font-size: 8px;
+//         font-weight: 500;
+//         line-height: 13.46px;
+//         margin-bottom: 45px;
+//     }
+
+//     .section-4__text-one::before {
+//         content: "";
+//         width: 29px;
+//         height: 4px;
+//         background-color: #000000;
+//         position: absolute;
+//         left: -20px;
+//         top: 6px;
+//     }
+
+//     .section-4__item {
+//         padding-left: 100px;
+//         list-style: none;
+//         margin-bottom: 10px;
+//         position: relative;
+//     }
+
+//     .section-4__item::before {
+//         content: "";
+//         width: 8px;
+//         height: 8px;
+//         background-color: #000;
+//         position: absolute;
+//         left: 70px;
+//         top: 6px;
+//     }
+
+
+//     .section-4__item-title {
+//         font-family: "Acrom";
+//         font-size: 9px;
+//         font-weight: 700;
+//         line-height: 13.46px;
+//         text-transform: uppercase;
+//         margin-bottom: 10px;
+//     }
+
+//     .section-4__item-text {
+//         color: #3f4144;
+//         font-family: "Acrom";
+//         font-size: 9px;
+//         font-weight: 400;
+//         line-height: 13.46px;
+//     }
+// }
+
+// @media (min-width: 1200px) {
+//     .section-4 {
+//         margin: 0 auto;
+//         padding: 60px 0;
+//         max-width: 720px;
+//         display: flex;
+//         flex-direction: row;
+
+//         &__subtitle {
+//             width: 120px;
+//             height: 50px;
+//             margin: 0 auto;
+//             font-family: "Acrom";
+//             background-color: #000;
+//             color: #ffffff;
+//             font-size: 8px;
+//             font-weight: 700;
+//             line-height: 16.25px;
+//             text-transform: uppercase;
+//             margin-right: 25px;
+//         }
+
+//         &__p {
+//             font-family: "Acrom";
+//             font-size: 10px;
+//             font-weight: 700;
+//             line-height: 15px;
+//             margin-bottom: 10px;
+//             width: 180px;
+//         }
+
+//     }
+
+//     .section-4__text {
+//         font-family: "Acrom";
+//         font-size: 10px;
+//         line-height: 13.13px;
+//         width: 177px;
+//     }
+
+//     .section-4__title {
+//         display: inline-block;
+//         text-align: left;
+//         font-family: "Acrom";
+//         background-color: #000;
+//         color: #ffffff;
+//         font-size: 27px;
+//         font-weight: 700;
+//         line-height: 33.65px;
+//         text-transform: uppercase;
+//         margin-bottom: 23px;
+//         margin-left: 60px;
+//     }
+
+//     .section-4__text-one {
+//         width: 177px;
+//         position: relative;
+//         width: 177px;
+//         color: #000000;
+//         font-family: "Acrom";
+//         font-size: 10px;
+//         font-weight: 500;
+//         line-height: 15px;
+//     }
+
+//     .section-4__text-one::before {
+//         content: "";
+//         width: 35px;
+//         height: 4px;
+//         background-color: #000000;
+//         position: absolute;
+//         left: -20px;
+//         top: 6px;
+//     }
+
+//     .section-4__item {
+//         padding-left: 100px;
+//         list-style: none;
+//         margin-bottom: 15px;
+//         position: relative;
+//     }
+
+//     .section-4__item::before {
+//         content: "";
+//         width: 8px;
+//         height: 8px;
+//         background-color: #000;
+//         position: absolute;
+//         left: 70px;
+//         top: 6px;
+//     }
+
+
+//     .section-4__item-title {
+//         font-family: "Acrom";
+//         font-size: 10px;
+//         font-weight: 700;
+//         line-height: 13.46px;
+//         text-transform: uppercase;
+//         margin-bottom: 15px;
+//     }
+
+//     .section-4__item-text {
+//         color: #3f4144;
+//         font-family: "Acrom";
+//         font-size: 10px;
+//         font-weight: 400;
+//         line-height: 13.46px;
+//     }
+// }
